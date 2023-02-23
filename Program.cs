@@ -23,3 +23,5 @@ void M1(string[] M)
     }
     Console.WriteLine(string.Join(Environment.NewLine, result, 0, realSize));
 }
+string[] MM = M("Введите массив строк через пробел");
+M1(MM);
